@@ -1,0 +1,135 @@
+	body {
+			font-family: Verdana, Arial, '黑体';
+			font-size:14.7px;
+		}
+	.test {
+		border:1px solid red;
+	}
+	.c,.design,.eap,.line,p{
+		width:970px;
+		margin:0 auto;
+		text-align:center;
+	}
+		/*左浮动*/
+		.l,.design div{
+			float:left;	
+		}
+		/*右浮动*/
+		.r {
+			float:right;	
+		}
+		.clear {
+			clear:both;
+		}
+		/*相对定位*/
+		.re {
+			position:relative;
+		}
+		/*绝对定位*/
+		.ab {
+			position:absolute;
+		}
+	/*Design*/
+	.design {
+		height:120px;
+	}
+	.design div {
+		width:114px;
+		height:115px;
+		background-repeat:no-repeat;
+		margin:0 40px;
+	}
+	.design_1 {
+		background-image:url(../images/design-1.png);
+	}
+	.design_2 {
+		background-image:url(../images/design-2.png);
+	}
+	.design_3 {
+		background-image:url(../images/design-3.png);
+	}
+	.design_4 {
+		background-image:url(../images/design-4.png);
+	}
+	.design_5 {
+		background-image:url(../images/design-5.png);
+	}
+	/*Design End*/
+	/*EXHIBITION、ABOUTUS、PROCESS*/
+	.eap {
+		height:30px;
+		font-size:20px;
+		background-color:black;
+		color:red;
+		font-weight:bold;
+		line-height:30px;
+		margin-top:80px;
+	}
+	.line {
+		height:30px;
+	} 
+	.line h3 {
+		width:80px;
+		height:25px;
+		margin:0 auto;
+	}
+	.line div {
+		width:400px;
+		height:12px;
+		border-bottom:1px solid black;
+	}
+	span {
+		color:white;
+	}
+	/*EXHIBITION、ABOUTUS、PROCESS Eed*/
+	/*P内容*/
+	p {
+		height:30px;
+		line-height:30px;	
+	}
+	.p1 {
+		margin-top:20px;
+		font-size:25px;
+	}
+	/*P内容  End*/
+
+	/*Show*/
+	.show {
+		height:300px;
+	}
+	.show_1,.show_2,.show_3,.show_4,.show_5{
+		width:180px;
+		height:300px;
+		background-repeat:no-repeat;
+	}
+	.show_1,.show_2,.show_3,.show_4 {
+		float:left;
+		margin-right:17px;
+	}
+	.show_5 {
+		float:right;	
+	}
+	.show_1 {
+		background-image:url(../images/1.png);
+	}
+	.show_2 {
+		background-image:url(../images/2.png);
+	}
+	.show_3 {
+		background-image:url(../images/3.png);
+	}
+	.show_4 {
+		background-image:url(../images/4.png);
+	}
+	.show_5 {
+		background-image:url(../images/5.png);
+		float:right:
+	}
+	/*Show End*/
+	/*Process*/
+	.process {
+		height:30px;
+		background-image:url(../images/7.png);
+		margin:30px auto 80px auto;
+	}
+	/*Process End*/
