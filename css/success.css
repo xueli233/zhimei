@@ -1,0 +1,56 @@
+		/*Main*/
+		a {
+			text-decoration:none;
+			color:black;
+		}
+		.main {
+			height:1650px;
+			border:1px solid red;
+		}
+		.main div {
+			width:174px;
+			height:160px;
+			float:left;
+			text-align:center;
+			line-height:25px;
+			margin:auto 10px;
+		}
+		.main h4{
+			height:10px;
+			text-align:left;
+			text-indent:13px;
+		}
+		.main .line_1 {
+			width:970px;
+			height:3px;
+			margin:0 auto;
+			background-color:#adadad;
+			margin-bottom:10px;
+		}
+		.main .line_1 div{
+			width:90px;
+			background-color:black;
+			height:3px;
+			float:left;
+			margin:0;
+		}
+		.btn {
+			width:230px;
+			height:20px;
+			margin:30px auto;
+			text-align:center;
+		}
+		.btn_1,.btn_2,.btn_3,.btn_4 {
+			float:left;
+			margin:0 10px;	
+		}
+		.btn_1,.btn_4 {
+			width:50px;	
+		}
+		.btn_2,.btn_3 {
+			width:18px;
+		}
+		.btn_3,.btn_4 {
+			border:1px solid #DBEAEF;
+		}
+		/*Main Eed*/
