@@ -1,8 +1,8 @@
 		body {
-			font-family: Verdana, Arial, '宋体';
+			font-family: Verdana, Arial, "黑体";
 			font-size:14.7px;
 		}
-		.navbar a,.nav a,.subnav a {
+		.navbar a,.nav a,.subnav a,.subnav div{
 			text-decoration:none;
 			color:black;
 			width:80px;
@@ -38,7 +38,7 @@
 			position:relative;
 		}
 		/*绝对定位*/
-		.ab,.navbar,.line{
+		.ab,.navbar,.line_head{
 			position:absolute;
 		}
 		/*joinus*/
@@ -76,12 +76,15 @@
 			top:70px;
 			left:280px;
 		}
-		.line {
+		.line_head {
 			background-color:black;
 			width:70px;
 			height:3px;
 			top:25px;
 			left:7px;
+		}
+		.nav .a_last,.navbar .a_last,.subnav .a_last {
+			border:none;
 		}
 		/*Head End*/
 		/*banner*/
@@ -89,6 +92,7 @@
 			width:1200px;
 			height:435px;
 			background-color:#2C2E34;
+			margin:0 auto;
 		}
 		.more {
 			width:300px;
@@ -97,7 +101,7 @@
 			margin:0 auto;
 			border:1px solid red;
 		}
-		.pic,.design,.case {
+		.pic,.design_banner,.case {
 			position:absolute;
 			color:white;
 		}
@@ -108,7 +112,7 @@
 			top:10px;
 			background-image:url(../images/banner_logo.png);
 		}
-		.design {
+		.design_banner {
 			width:140px;
 			height:38px;
 			left:70px;

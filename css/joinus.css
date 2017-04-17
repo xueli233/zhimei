@@ -1,6 +1,6 @@
 	body {
 		font-family:"黑体";
-		font-size:12px;
+		/*font-size:12px;*/
 	}
 	a {
 		text-decoration:none;
@@ -10,8 +10,8 @@
 		clear:both;
 	}
 	.main {
-		width:970px;
-		height:757px;
+		width:1160px;
+		height:1000px;
 		margin:0 auto;
 	}
 	.test {
@@ -85,8 +85,8 @@
 	/*Main-left End*/
 	/*Main-right*/
 		.main_right {
-			width:650px;
-			height:900px;
+			width:848px;
+			height:1000px;
 			float:right;
 		}
 		.title {
@@ -99,23 +99,23 @@
 		}
 		/*Title End*/
 		.share {
-			width:650px;
+			width:800px;
 			height:60px
 		}
 		.share p {
-			width:50px;
+			width:64px;
 			height:50px;
 			margin:0;
 			float:left;
 		}
 		.share div {
-			width:590px;
+			width:700px;
 			height:50px;
 			float:left;
 			margin:0;
 		}
 		.share a {
-			width:70px;
+			width:87px;
 			height:20px;
 			display:block;
 			line-height:20px;
@@ -130,19 +130,19 @@
 		}
 		/*Share End*/
 		.content {
-			width:680px;
+			width:848px;
 			height:600px;
 			border-top:2px dotted #DBEAEF;
 		}
 		/*Contont End*/
 		.btn {
-			width:124px;
+			width:148px;
 			height:20px;
 			text-align:center;
 			margin:0 auto;
 		}
 		.btn div {
-			width:40px;
+			width:50px;
 			height:20px;
 			border:1px solid #DBEAEF;
 			float:left;
@@ -151,3 +151,7 @@
 		}
 		/*Button End*/
 	/*Main-right End*/
+
+		.navbar .line_head {
+			left:325px;
+		}

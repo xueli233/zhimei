@@ -32,6 +32,7 @@
 	/*Design*/
 	.design {
 		height:120px;
+		margin-top:40px;
 	}
 	.design div {
 		width:114px;
@@ -133,3 +134,6 @@
 		margin:30px auto 80px auto;
 	}
 	/*Process End*/
+	.navbar .line_head {
+			left:86px;
+		}
