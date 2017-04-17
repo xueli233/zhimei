@@ -1,0 +1,153 @@
+	body {
+		font-family:"黑体";
+		font-size:12px;
+	}
+	a {
+		text-decoration:none;
+		color:black;
+	}
+	.clear {
+		clear:both;
+	}
+	.main {
+		width:970px;
+		height:757px;
+		margin:0 auto;
+	}
+	.test {
+		border:1px solid red;
+	}
+	/*Main-left*/
+	.main_left {
+		width:310px;
+		height:435px;
+		float:left;
+	}
+	.server_online {
+		height:8px;
+	}
+	.line_2 {
+		height:3px;
+		width:300px;
+		background-color:#adadad;
+	}
+	.line_2 div {
+		height:3px;
+		width:80px;
+		background-color:#FF680B;
+		float:left;
+	}
+	.qq {
+		width:300px;
+		height:80px;
+	}
+	.qq a,.qq img {
+		display:block;
+		margin:4px;
+		float:left;
+	}
+	.qq a {
+		height:30px;
+		width:200px;
+		line-height:30px;
+		margin-left:4px;
+	}
+	.qq img {
+		height:21px;
+		width:21px;
+		
+	}
+	.work_time{
+		width:302px;
+		height:120px;
+		border-top:2px dotted #adadad;
+		border-bottom:2px dotted #adadad;
+	}
+	.work_time h4,.tel h4{
+		height:35px;
+		width:300px;
+		float:left;
+		line-height:35px;
+		margin:4px;
+	}
+	.work_time img,.tel img {
+		display:block;
+		width:27px;
+		height:27px;
+		float:left;
+		margin:4px
+	}
+	.work_time p,.tel p {
+		width:300px;
+		height:20px;
+		margin:8px;
+	}
+	/*Main-left End*/
+	/*Main-right*/
+		.main_right {
+			width:650px;
+			height:900px;
+			float:right;
+		}
+		.title {
+			height:80px;
+			width:202px;
+			margin:0 auto;
+		}
+		.title p {
+			text-align:center;
+		}
+		/*Title End*/
+		.share {
+			width:650px;
+			height:60px
+		}
+		.share p {
+			width:50px;
+			height:50px;
+			margin:0;
+			float:left;
+		}
+		.share div {
+			width:590px;
+			height:50px;
+			float:left;
+			margin:0;
+		}
+		.share a {
+			width:70px;
+			height:20px;
+			display:block;
+			line-height:20px;
+			float:left;
+			margin:0px 10px 10px 0;
+		}
+		.share img {
+			display:block;
+			width:22px;
+			height:20px;
+			float:left;
+		}
+		/*Share End*/
+		.content {
+			width:680px;
+			height:600px;
+			border-top:2px dotted #DBEAEF;
+		}
+		/*Contont End*/
+		.btn {
+			width:124px;
+			height:20px;
+			text-align:center;
+			margin:0 auto;
+		}
+		.btn div {
+			width:40px;
+			height:20px;
+			border:1px solid #DBEAEF;
+			float:left;
+			line-height:20px;
+			margin:10px;
+		}
+		/*Button End*/
+	/*Main-right End*/
